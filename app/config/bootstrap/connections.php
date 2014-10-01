@@ -69,4 +69,12 @@ use lithium\data\Connections;
 // 	'encoding' => 'UTF-8'
 // ));
 
+Connections::add('parse', array(
+    'type' => 'http',
+    'adapter' => 'Parse',
+    'app_key' => 'VQOTwLkdGTPhb1ODjiCXaaGXks1x04Rkq14k7U4F',
+    'rest_key' => '8LUrxm44o11gr5GiGdZRzMJet2wmXPrRPj3utHlJ',
+    'master_key' => 'UjAlHn9VJnDiI0yJ3VIzHevRJjd11b5QOsUEVbF8',
+));
+
 ?>

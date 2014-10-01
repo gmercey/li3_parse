@@ -36,7 +36,7 @@ require __DIR__ . '/bootstrap/libraries.php';
  * rules of the `ErrorHandler` class to provide a high level of control over managing exceptions in
  * your application, with no impact on framework or application code.
  */
-// require __DIR__ . '/bootstrap/errors.php';
+require __DIR__ . '/bootstrap/errors.php';
 
 /**
  * This file defines bindings between classes which are triggered during the request cycle, and
@@ -49,7 +49,7 @@ require __DIR__ . '/bootstrap/action.php';
  * This file contains configurations for connecting to external caching resources, as well as
  * default caching rules for various systems within your application
  */
-require __DIR__ . '/bootstrap/cache.php';
+// require __DIR__ . '/bootstrap/cache.php';
 
 /**
  * Include this file if your application uses one or more database connections.
